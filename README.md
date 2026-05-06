@@ -58,23 +58,12 @@ For example, VS2022's default visualizers folder will be **C:\Program Files\Micr
 
 ## Using Coding Agents
 
-[bot.ps1](./.github/bot.ps1) can automate the process:
-- It starts a tool based on copilot sdk.
-- `nodejs 24 LTS`, `yarn`, `copilot cli`, `powershell 7` are required.
-- It starts a server with a [website portal](./.github/bot.md).
-
 Both `AGENTS.md` and `CLAUDE.md` are prepared so that copilot/codex/claude coding agent follow the same instruction.
 
 The follow keywords maintain design documents in `.github/TaskLogs`, anything except `Copilot_Scrum.md` is not tracked by git, you can change the `.gitignore` in that folder if you like.
-- Use `scrum problem ...` to start a new scrum backlog `Copilot_Scrum.md` with multiple tasks, `scrum update ...` to update.
-- Use `design problem next` to fetch one task from the scrum and finish `Copilot_Task.md`, `design update ...` to update.
-- Use `plan problem` to make detailed plan from the design and finish `Copilot_Planning.md`, `plan update ...` to update.
-- Use `summary problem` to summary all code changes from the plan in `Copilot_Execution.md`.
-- Use `summary update ...` if `Copilot_Execution.md` has tiny mistakes. To make a complex update, it is recommended to revert `Copilot_Execution.md` completely and do `plan update ...` again.
-- Use `execute` to execute `Copilot_Execution.md` and build your project.
-- Use `verify` to build and test your project.
+
 - Use `ask ...` to answer your question.
-- Use anything else to raise a feature request, it will code, build and test your project automatically, without walking through all design documents.
+- Use `investigate repro ...` for coding works or bug fixing.
 - More use cases in `AGENTS.md`.
 
 You can copy the whole `.github` folder to your own repo.
@@ -83,8 +72,7 @@ You can copy the whole `.github` folder to your own repo.
   - You need to prepare `VLPP_VSDEVCMD_PATH` and `CDBPATH` environment variable
   - Search in `.github/Scripts` and read comments about them.
   - Building/testing/debugging is doable.
-- Find `settings.example.json` and `tasks.example.json` for references, but prompts do not use `tasks.json`.
-- Update `.github/Project.md` to describe where the source code is.
+  - Update `Project.md` to describe where the source code is.
 - `.github/copilot-instructions.md` and `.github/Guidelines` follow the pattern in all repos in this github organization, feel free to change.
 
 ## Content of This Project
