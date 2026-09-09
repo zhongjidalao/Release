@@ -208,6 +208,10 @@
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">/bigobj %(AdditionalOptions)</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <ClCompile Include="..\..\..\Import\Skins\TuiSkin\TuiSkin.cpp">
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="TuiMain.cpp" />
     <ClCompile Include="WinMain.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">/bigobj %(AdditionalOptions)</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
@@ -219,6 +223,7 @@
     <ClInclude Include="..\..\..\Import\GacUI.h" />
     <ClInclude Include="..\..\..\Import\GacUI.Windows.h" />
     <ClInclude Include="..\..\..\Import\Skins\DarkSkin\DarkSkin.h" />
+    <ClInclude Include="..\..\..\Import\Skins\TuiSkin\TuiSkin.h" />
     <ClInclude Include="..\..\..\Import\Vlpp.h" />
     <ClInclude Include="..\..\..\Import\VlppGlrParser.h" />
     <ClInclude Include="..\..\..\Import\VlppOS.h" />

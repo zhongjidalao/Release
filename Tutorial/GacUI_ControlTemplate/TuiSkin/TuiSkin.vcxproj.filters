@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{91B1799F-6AF2-4D4D-A24A-86AB32CBC829}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7AF2C23E-1307-4D1F-9058-401377055FB2}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{CC979AD7-F55D-413B-88D8-BF90D4E38302}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="..\..\Lib\GacUILite\WinMain.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="..\..\Lib\GacUILite\TuiMain.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="UI\TuiControlTest\Source\TuiControlTestPartialClasses.cpp"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UI\TuiControlTest\Source\TuiControlTest.h"><Filter>Source Files</Filter></ClInclude>
+  </ItemGroup>
+</Project>

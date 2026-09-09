@@ -1,3 +1,5 @@
+#ifndef GACUILITE_TUI_APPLICATION
+
 #define GAC_HEADER_USE_NAMESPACE
 #include <GacUI.h>
 #include <Skins\DarkSkin\DarkSkin.h>
@@ -28,3 +30,5 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 {
 	return SetupWindowsDirect2DRenderer();
 }
+
+#endif

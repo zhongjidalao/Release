@@ -22,6 +22,9 @@
     <Filter Include="Import\Skins\DarkSkin">
       <UniqueIdentifier>{db52dfa7-2aae-4d3d-a9a3-9441cdf9ba4d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Import\Skins\TuiSkin">
+      <UniqueIdentifier>{1AA7F348-6788-4C0D-82F5-1B5171A9D4F8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\Import\GacUI.cpp">
@@ -35,6 +38,12 @@
     </ClCompile>
     <ClCompile Include="WinMain.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TuiMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Import\Skins\TuiSkin\TuiSkin.cpp">
+      <Filter>Import\Skins\TuiSkin</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\Import\VlppWorkflowLibrary.cpp">
       <Filter>Import</Filter>
@@ -76,6 +85,9 @@
     </ClInclude>
     <ClInclude Include="..\..\..\Import\Skins\DarkSkin\DarkSkin.h">
       <Filter>Import\Skins\DarkSkin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Import\Skins\TuiSkin\TuiSkin.h">
+      <Filter>Import\Skins\TuiSkin</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\Import\VlppWorkflowLibrary.h">
       <Filter>Import</Filter>
