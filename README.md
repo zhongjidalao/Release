@@ -30,10 +30,13 @@ Download code from [public releases](https://github.com/vczh-libraries/Release/r
 GPU Accelerated C++ User Interface, with:
 - Cross-platform supports (Windows, Linux, macos, HTML5)
   - Native Renderers
+  - TUI Renderers
   - Hosted Mode to render all windows in one native window (optional)
-  - Core/Renderer cross-process separation (optional, this is the Remote Protocol)
+  - Core/Renderer cross-process separation (optional)
 - Built-in powerful text processing libraries
 - Built-in data binding and MVVM features
+  - View Model could be implemented in another process [with your favorate programming languages](https://github.com/vczh-libraries/Release#implementing-view-model-in-other-programming-languages).
+  - Such FFI integration starts from defining interfaces using [the Workflow script](https://github.com/vczh-libraries/Workflow)
 - XML UI description embedding Workflow script language
   - Dynamic loading with C++ dynamic reflection opt-in
     - Allow loading foreign UI with complex behavior in runtime
