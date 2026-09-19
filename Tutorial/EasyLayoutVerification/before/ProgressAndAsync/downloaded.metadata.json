@@ -1,0 +1,29 @@
+{
+  "Configuration": "Debug",
+  "CapturedAt": "2026-09-19T14:48:33.3224494Z",
+  "Architecture": "x64",
+  "FontSettings": "Fonts and sizes recorded on each Label element in the accompanying geometry JSON.",
+  "RequestedSize": {
+    "Height": 0,
+    "Width": 0
+  },
+  "Revision": "4ed1be5f6186bf36573fcf4197cc5018acce4858",
+  "WindowBounds": {
+    "Left": 1040,
+    "Top": 536,
+    "Right": 1536,
+    "Bottom": 901
+  },
+  "Skin": "darkskin::Theme",
+  "ClientBounds": {
+    "x1": 0,
+    "y1": 0,
+    "x2": 496,
+    "y2": 365
+  },
+  "ImageAvailable": false,
+  "Renderer": "Windows Direct2D",
+  "Commands": [],
+  "Dpi": 96,
+  "ProcessId": 26448
+}

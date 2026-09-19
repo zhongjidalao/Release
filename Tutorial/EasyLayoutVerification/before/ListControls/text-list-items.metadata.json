@@ -1,0 +1,31 @@
+{
+  "RequestedSize": {
+    "Height": 0,
+    "Width": 0
+  },
+  "ImageAvailable": false,
+  "Skin": "darkskin::Theme",
+  "FontSettings": "Fonts and sizes recorded on each Label element in the accompanying geometry JSON.",
+  "Revision": "4ed1be5f6186bf36573fcf4197cc5018acce4858",
+  "Renderer": "Windows Direct2D",
+  "Architecture": "x64",
+  "Configuration": "Debug",
+  "ClientBounds": {
+    "x1": 0,
+    "y1": 0,
+    "x2": 656,
+    "y2": 525
+  },
+  "CapturedAt": "2026-09-19T14:38:53.5798077Z",
+  "Dpi": 96,
+  "Commands": [
+    "Click label 'Add 10 items': !LeftClick:328,111"
+  ],
+  "WindowBounds": {
+    "Left": 960,
+    "Top": 456,
+    "Right": 1616,
+    "Bottom": 981
+  },
+  "ProcessId": 8480
+}

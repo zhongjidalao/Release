@@ -1,0 +1,16 @@
+{
+  "CompletedAt": "2026-09-19T16:13:24.0500856Z",
+  "Driver": "Tutorial/GacUI.xml",
+  "Resources": 52,
+  "Architectures": [
+    "x86",
+    "x64"
+  ],
+  "DeclaredOutputs": 520,
+  "MissingOutputs": [],
+  "OlderThanRun": [],
+  "ToolsRevision": "b514f7be8df5f9bbdf412b0546a3f510efbd878b",
+  "GacUIRevision": "5877b04f56ea577d43dd99f17f2ae1cbffc7119c",
+  "GacUIWorkingTreeModified": true,
+  "AuthoredControlsXmlMigrated": false
+}

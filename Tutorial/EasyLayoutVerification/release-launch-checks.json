@@ -1,0 +1,164 @@
+[
+  {
+    "Application": "AddressBook",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9051,
+    "Listener": false,
+    "WindowTitles": "AddressBook",
+    "ExitCode": 0
+  },
+  {
+    "Application": "Animation",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9052,
+    "Listener": false,
+    "WindowTitles": "GacUI XML??????",
+    "ExitCode": 0
+  },
+  {
+    "Application": "CalculatorAndStateMachine",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9053,
+    "Listener": false,
+    "WindowTitles": "CalculatorAndStateMachine",
+    "ExitCode": 0
+  },
+  {
+    "Application": "ColorPicker",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9054,
+    "Listener": false,
+    "WindowTitles": "ColorPicker",
+    "ExitCode": 0
+  },
+  {
+    "Application": "ColorPicker2",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9055,
+    "Listener": false,
+    "WindowTitles": "ColorPicker2",
+    "ExitCode": 0
+  },
+  {
+    "Application": "ContainersAndButtons",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9056,
+    "Listener": false,
+    "WindowTitles": "ContainersAndButtons",
+    "ExitCode": 0
+  },
+  {
+    "Application": "DataGrid",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9057,
+    "Listener": false,
+    "WindowTitles": "DataGrid",
+    "ExitCode": 0
+  },
+  {
+    "Application": "Dialogs",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9058,
+    "Listener": false,
+    "WindowTitles": "Dialogs",
+    "ExitCode": 0
+  },
+  {
+    "Application": "DocumentEditorRibbon",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9059,
+    "Listener": false,
+    "WindowTitles": "Document Editor (Ribbon)",
+    "ExitCode": 0
+  },
+  {
+    "Application": "DocumentEditorToolstrip",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9060,
+    "Listener": false,
+    "WindowTitles": "Document Editor (Toolstrip)",
+    "ExitCode": 0
+  },
+  {
+    "Application": "GlobalHotKey",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9061,
+    "Listener": false,
+    "WindowTitles": "GlobalHotkey",
+    "ExitCode": 0
+  },
+  {
+    "Application": "ListControls",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9062,
+    "Listener": false,
+    "WindowTitles": "ListControls",
+    "ExitCode": 0
+  },
+  {
+    "Application": "Localization",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9063,
+    "Listener": false,
+    "WindowTitles": "???",
+    "ExitCode": 0
+  },
+  {
+    "Application": "MenuVisibility",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9064,
+    "Listener": false,
+    "WindowTitles": "MenuVisibility",
+    "ExitCode": 0
+  },
+  {
+    "Application": "ProgressAndAsync",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9065,
+    "Listener": false,
+    "WindowTitles": "ProgressAndAsync",
+    "ExitCode": 0
+  },
+  {
+    "Application": "QueryService",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9066,
+    "Listener": false,
+    "WindowTitles": "Name of MainWindow",
+    "ExitCode": 0
+  },
+  {
+    "Application": "TriplePhaseImageButton",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9067,
+    "Listener": false,
+    "WindowTitles": "TriplePhaseImageButton",
+    "ExitCode": 0
+  },
+  {
+    "Application": "Win11ToolstripMenu",
+    "Configuration": "Release",
+    "Architecture": "x64",
+    "Port": 9068,
+    "Listener": false,
+    "WindowTitles": "Win11ToolstripMenu",
+    "ExitCode": 0
+  }
+]

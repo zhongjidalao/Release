@@ -1,0 +1,816 @@
+{
+  "WindowManagement": "MultiWindow",
+  "MainWindow": {
+    "title": "CalculatorAndStateMachine",
+    "windowId": "2585138989016",
+    "bounds": {"x1": 0, "y1": 0, "x2": 496, "y2": 365},
+    "composition": {
+      "bounds": {"x1": 0, "y1": 0, "x2": 496, "y2": 365},
+      "control": "Window",
+      "children": [
+        {
+          "bounds": {"x1": 0, "y1": 0, "x2": 496, "y2": 365},
+          "element": "Background:#2D2D30FF,Rectangle",
+          "children": [
+            {
+              "bounds": {"x1": 0, "y1": 0, "x2": 496, "y2": 365},
+              "element": "Border:#017ACCFF,Rectangle",
+              "children": [
+                {
+                  "bounds": {"x1": 0, "y1": 0, "x2": 496, "y2": 365},
+                  "layout": "Table:3*3",
+                  "children": [
+                    {
+                      "bounds": {"x1": 0, "y1": 0, "x2": 8, "y2": 8},
+                      "layout": "Cell:(0,0)*(1,1)"
+                    },
+                    {
+                      "bounds": {"x1": 488, "y1": 0, "x2": 496, "y2": 8},
+                      "layout": "Cell:(0,2)*(1,1)"
+                    },
+                    {
+                      "bounds": {"x1": 0, "y1": 357, "x2": 8, "y2": 365},
+                      "layout": "Cell:(2,0)*(1,1)"
+                    },
+                    {
+                      "bounds": {"x1": 488, "y1": 357, "x2": 496, "y2": 365},
+                      "layout": "Cell:(2,2)*(1,1)"
+                    },
+                    {
+                      "bounds": {"x1": 0, "y1": 8, "x2": 8, "y2": 357},
+                      "layout": "Cell:(1,0)*(1,1)"
+                    },
+                    {
+                      "bounds": {"x1": 488, "y1": 8, "x2": 496, "y2": 357},
+                      "layout": "Cell:(1,2)*(1,1)"
+                    },
+                    {
+                      "bounds": {"x1": 8, "y1": 0, "x2": 488, "y2": 8},
+                      "layout": "Cell:(0,1)*(1,1)"
+                    },
+                    {
+                      "bounds": {"x1": 8, "y1": 357, "x2": 488, "y2": 365},
+                      "layout": "Cell:(2,1)*(1,1)"
+                    }
+                  ]
+                },
+                {
+                  "bounds": {"x1": 8, "y1": 8, "x2": 488, "y2": 357},
+                  "layout": "Table:2*5",
+                  "children": [
+                    {
+                      "bounds": {"x1": 386, "y1": 8, "x2": 420, "y2": 37},
+                      "layout": "Cell:(0,2)*(1,1)",
+                      "children": [
+                        {
+                          "bounds": {"x1": 387, "y1": 9, "x2": 419, "y2": 36},
+                          "control": "Button",
+                          "children": [
+                            {
+                              "bounds": {"x1": 387, "y1": 9, "x2": 419, "y2": 36},
+                              "element": "Background:#3F3F46FF,Rectangle",
+                              "children": [
+                                {
+                                  "bounds": {"x1": 387, "y1": 9, "x2": 419, "y2": 36},
+                                  "element": "Border:#54545CFF,Rectangle"
+                                },
+                                {
+                                  "bounds": {"x1": 391, "y1": 11, "x2": 415, "y2": 34},
+                                  "elementText": "",
+                                  "element": "Label:#F1F1F1FF,Segoe UI,12",
+                                  "children": [
+                                    {
+                                      "bounds": {"x1": 391, "y1": 11, "x2": 415, "y2": 34},
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 391, "y1": 11, "x2": 415, "y2": 34},
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 391, "y1": 11, "x2": 415, "y2": 34},
+                                              "element": "Polygon"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "bounds": {"x1": 420, "y1": 8, "x2": 454, "y2": 37},
+                      "layout": "Cell:(0,3)*(1,1)",
+                      "children": [
+                        {
+                          "bounds": {"x1": 421, "y1": 9, "x2": 453, "y2": 36},
+                          "control": "Button",
+                          "children": [
+                            {
+                              "bounds": {"x1": 421, "y1": 9, "x2": 453, "y2": 36},
+                              "element": "Background:#3F3F46FF,Rectangle",
+                              "children": [
+                                {
+                                  "bounds": {"x1": 421, "y1": 9, "x2": 453, "y2": 36},
+                                  "element": "Border:#54545CFF,Rectangle"
+                                },
+                                {
+                                  "bounds": {"x1": 425, "y1": 11, "x2": 449, "y2": 34},
+                                  "elementText": "",
+                                  "element": "Label:#F1F1F1FF,Segoe UI,12",
+                                  "children": [
+                                    {
+                                      "bounds": {"x1": 425, "y1": 11, "x2": 449, "y2": 34},
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 425, "y1": 11, "x2": 449, "y2": 34},
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 425, "y1": 11, "x2": 449, "y2": 34},
+                                              "element": "Polygon"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "bounds": {"x1": 454, "y1": 8, "x2": 488, "y2": 37},
+                      "layout": "Cell:(0,4)*(1,1)",
+                      "children": [
+                        {
+                          "bounds": {"x1": 455, "y1": 9, "x2": 487, "y2": 36},
+                          "control": "Button",
+                          "children": [
+                            {
+                              "bounds": {"x1": 455, "y1": 9, "x2": 487, "y2": 36},
+                              "element": "Background:#3F3F46FF,Rectangle",
+                              "children": [
+                                {
+                                  "bounds": {"x1": 455, "y1": 9, "x2": 487, "y2": 36},
+                                  "element": "Border:#54545CFF,Rectangle"
+                                },
+                                {
+                                  "bounds": {"x1": 459, "y1": 11, "x2": 483, "y2": 34},
+                                  "elementText": "",
+                                  "element": "Label:#F1F1F1FF,Segoe UI,12",
+                                  "children": [
+                                    {
+                                      "bounds": {"x1": 459, "y1": 11, "x2": 483, "y2": 34},
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 459, "y1": 11, "x2": 483, "y2": 34},
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 459, "y1": 11, "x2": 483, "y2": 34},
+                                              "element": "Polygon"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "bounds": {"x1": 8, "y1": 8, "x2": 26, "y2": 37},
+                      "layout": "Cell:(0,0)*(1,1)",
+                      "children": [
+                        {
+                          "bounds": {"x1": 8, "y1": 8, "x2": 24, "y2": 37},
+                          "layout": "Table:3*1",
+                          "children": [
+                            {
+                              "bounds": {"x1": 8, "y1": 14, "x2": 24, "y2": 30},
+                              "layout": "Cell:(1,0)*(1,1)",
+                              "element": "Image"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "bounds": {"x1": 26, "y1": 8, "x2": 386, "y2": 37},
+                      "layout": "Cell:(0,1)*(1,1)",
+                      "children": [
+                        {
+                          "bounds": {"x1": 31, "y1": 13, "x2": 381, "y2": 32},
+                          "elementText": "CalculatorAndStateMachine",
+                          "element": "Label:#999999FF,Segoe WP SemiLight,14,Ellipse"
+                        }
+                      ]
+                    },
+                    {
+                      "bounds": {"x1": 8, "y1": 37, "x2": 488, "y2": 357},
+                      "layout": "Cell:(1,0)*(1,5)",
+                      "children": [
+                        {
+                          "bounds": {"x1": 8, "y1": 37, "x2": 488, "y2": 357},
+                          "children": [
+                            {
+                              "bounds": {"x1": 8, "y1": 37, "x2": 488, "y2": 357},
+                              "children": [
+                                {
+                                  "bounds": {"x1": 8, "y1": 37, "x2": 488, "y2": 357},
+                                  "layout": "Table:5*4",
+                                  "children": [
+                                    {
+                                      "bounds": {"x1": 13, "y1": 42, "x2": 483, "y2": 100},
+                                      "layout": "Cell:(0,0)*(1,4)",
+                                      "elementText": "3",
+                                      "element": "Label:#FFFFFFFF,Segoe UI,24"
+                                    },
+                                    {
+                                      "bounds": {"x1": 13, "y1": 105, "x2": 126, "y2": 163},
+                                      "layout": "Cell:(1,0)*(1,1)",
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 13, "y1": 105, "x2": 126, "y2": 163},
+                                          "control": "Button",
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 13, "y1": 105, "x2": 126, "y2": 163},
+                                              "element": "Background:#3F3F46FF,Rectangle",
+                                              "children": [
+                                                {
+                                                  "bounds": {"x1": 13, "y1": 105, "x2": 126, "y2": 163},
+                                                  "element": "Border:#54545CFF,Rectangle"
+                                                },
+                                                {
+                                                  "bounds": {"x1": 17, "y1": 107, "x2": 122, "y2": 161},
+                                                  "elementText": "1",
+                                                  "element": "Label:#F1F1F1FF,Segoe UI,24",
+                                                  "children": [
+                                                    {
+                                                      "bounds": {"x1": 17, "y1": 107, "x2": 122, "y2": 161},
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 17, "y1": 107, "x2": 122, "y2": 161}
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "bounds": {"x1": 131, "y1": 105, "x2": 244, "y2": 163},
+                                      "layout": "Cell:(1,1)*(1,1)",
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 131, "y1": 105, "x2": 244, "y2": 163},
+                                          "control": "Button",
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 131, "y1": 105, "x2": 244, "y2": 163},
+                                              "element": "Background:#3F3F46FF,Rectangle",
+                                              "children": [
+                                                {
+                                                  "bounds": {"x1": 131, "y1": 105, "x2": 244, "y2": 163},
+                                                  "element": "Border:#54545CFF,Rectangle"
+                                                },
+                                                {
+                                                  "bounds": {"x1": 135, "y1": 107, "x2": 240, "y2": 161},
+                                                  "elementText": "2",
+                                                  "element": "Label:#F1F1F1FF,Segoe UI,24",
+                                                  "children": [
+                                                    {
+                                                      "bounds": {"x1": 135, "y1": 107, "x2": 240, "y2": 161},
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 135, "y1": 107, "x2": 240, "y2": 161}
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "bounds": {"x1": 249, "y1": 105, "x2": 362, "y2": 163},
+                                      "layout": "Cell:(1,2)*(1,1)",
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 249, "y1": 105, "x2": 362, "y2": 163},
+                                          "control": "Button",
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 249, "y1": 105, "x2": 362, "y2": 163},
+                                              "element": "Background:#3F3F46FF,Rectangle",
+                                              "children": [
+                                                {
+                                                  "bounds": {"x1": 249, "y1": 105, "x2": 362, "y2": 163},
+                                                  "element": "Border:#54545CFF,Rectangle"
+                                                },
+                                                {
+                                                  "bounds": {"x1": 253, "y1": 107, "x2": 358, "y2": 161},
+                                                  "elementText": "3",
+                                                  "element": "Label:#F1F1F1FF,Segoe UI,24",
+                                                  "children": [
+                                                    {
+                                                      "bounds": {"x1": 253, "y1": 107, "x2": 358, "y2": 161},
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 253, "y1": 107, "x2": 358, "y2": 161}
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "bounds": {"x1": 13, "y1": 168, "x2": 126, "y2": 226},
+                                      "layout": "Cell:(2,0)*(1,1)",
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 13, "y1": 168, "x2": 126, "y2": 226},
+                                          "control": "Button",
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 13, "y1": 168, "x2": 126, "y2": 226},
+                                              "element": "Background:#3F3F46FF,Rectangle",
+                                              "children": [
+                                                {
+                                                  "bounds": {"x1": 13, "y1": 168, "x2": 126, "y2": 226},
+                                                  "element": "Border:#54545CFF,Rectangle"
+                                                },
+                                                {
+                                                  "bounds": {"x1": 17, "y1": 170, "x2": 122, "y2": 224},
+                                                  "elementText": "4",
+                                                  "element": "Label:#F1F1F1FF,Segoe UI,24",
+                                                  "children": [
+                                                    {
+                                                      "bounds": {"x1": 17, "y1": 170, "x2": 122, "y2": 224},
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 17, "y1": 170, "x2": 122, "y2": 224}
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "bounds": {"x1": 131, "y1": 168, "x2": 244, "y2": 226},
+                                      "layout": "Cell:(2,1)*(1,1)",
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 131, "y1": 168, "x2": 244, "y2": 226},
+                                          "control": "Button",
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 131, "y1": 168, "x2": 244, "y2": 226},
+                                              "element": "Background:#3F3F46FF,Rectangle",
+                                              "children": [
+                                                {
+                                                  "bounds": {"x1": 131, "y1": 168, "x2": 244, "y2": 226},
+                                                  "element": "Border:#54545CFF,Rectangle"
+                                                },
+                                                {
+                                                  "bounds": {"x1": 135, "y1": 170, "x2": 240, "y2": 224},
+                                                  "elementText": "5",
+                                                  "element": "Label:#F1F1F1FF,Segoe UI,24",
+                                                  "children": [
+                                                    {
+                                                      "bounds": {"x1": 135, "y1": 170, "x2": 240, "y2": 224},
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 135, "y1": 170, "x2": 240, "y2": 224}
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "bounds": {"x1": 249, "y1": 168, "x2": 362, "y2": 226},
+                                      "layout": "Cell:(2,2)*(1,1)",
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 249, "y1": 168, "x2": 362, "y2": 226},
+                                          "control": "Button",
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 249, "y1": 168, "x2": 362, "y2": 226},
+                                              "element": "Background:#3F3F46FF,Rectangle",
+                                              "children": [
+                                                {
+                                                  "bounds": {"x1": 249, "y1": 168, "x2": 362, "y2": 226},
+                                                  "element": "Border:#54545CFF,Rectangle"
+                                                },
+                                                {
+                                                  "bounds": {"x1": 253, "y1": 170, "x2": 358, "y2": 224},
+                                                  "elementText": "6",
+                                                  "element": "Label:#F1F1F1FF,Segoe UI,24",
+                                                  "children": [
+                                                    {
+                                                      "bounds": {"x1": 253, "y1": 170, "x2": 358, "y2": 224},
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 253, "y1": 170, "x2": 358, "y2": 224}
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "bounds": {"x1": 13, "y1": 231, "x2": 126, "y2": 289},
+                                      "layout": "Cell:(3,0)*(1,1)",
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 13, "y1": 231, "x2": 126, "y2": 289},
+                                          "control": "Button",
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 13, "y1": 231, "x2": 126, "y2": 289},
+                                              "element": "Background:#3F3F46FF,Rectangle",
+                                              "children": [
+                                                {
+                                                  "bounds": {"x1": 13, "y1": 231, "x2": 126, "y2": 289},
+                                                  "element": "Border:#54545CFF,Rectangle"
+                                                },
+                                                {
+                                                  "bounds": {"x1": 17, "y1": 233, "x2": 122, "y2": 287},
+                                                  "elementText": "7",
+                                                  "element": "Label:#F1F1F1FF,Segoe UI,24",
+                                                  "children": [
+                                                    {
+                                                      "bounds": {"x1": 17, "y1": 233, "x2": 122, "y2": 287},
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 17, "y1": 233, "x2": 122, "y2": 287}
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "bounds": {"x1": 131, "y1": 231, "x2": 244, "y2": 289},
+                                      "layout": "Cell:(3,1)*(1,1)",
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 131, "y1": 231, "x2": 244, "y2": 289},
+                                          "control": "Button",
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 131, "y1": 231, "x2": 244, "y2": 289},
+                                              "element": "Background:#3F3F46FF,Rectangle",
+                                              "children": [
+                                                {
+                                                  "bounds": {"x1": 131, "y1": 231, "x2": 244, "y2": 289},
+                                                  "element": "Border:#54545CFF,Rectangle"
+                                                },
+                                                {
+                                                  "bounds": {"x1": 135, "y1": 233, "x2": 240, "y2": 287},
+                                                  "elementText": "8",
+                                                  "element": "Label:#F1F1F1FF,Segoe UI,24",
+                                                  "children": [
+                                                    {
+                                                      "bounds": {"x1": 135, "y1": 233, "x2": 240, "y2": 287},
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 135, "y1": 233, "x2": 240, "y2": 287}
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "bounds": {"x1": 249, "y1": 231, "x2": 362, "y2": 289},
+                                      "layout": "Cell:(3,2)*(1,1)",
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 249, "y1": 231, "x2": 362, "y2": 289},
+                                          "control": "Button",
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 249, "y1": 231, "x2": 362, "y2": 289},
+                                              "element": "Background:#3F3F46FF,Rectangle",
+                                              "children": [
+                                                {
+                                                  "bounds": {"x1": 249, "y1": 231, "x2": 362, "y2": 289},
+                                                  "element": "Border:#54545CFF,Rectangle"
+                                                },
+                                                {
+                                                  "bounds": {"x1": 253, "y1": 233, "x2": 358, "y2": 287},
+                                                  "elementText": "9",
+                                                  "element": "Label:#F1F1F1FF,Segoe UI,24",
+                                                  "children": [
+                                                    {
+                                                      "bounds": {"x1": 253, "y1": 233, "x2": 358, "y2": 287},
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 253, "y1": 233, "x2": 358, "y2": 287}
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "bounds": {"x1": 131, "y1": 294, "x2": 244, "y2": 352},
+                                      "layout": "Cell:(4,1)*(1,1)",
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 131, "y1": 294, "x2": 244, "y2": 352},
+                                          "control": "Button",
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 131, "y1": 294, "x2": 244, "y2": 352},
+                                              "element": "Background:#3F3F46FF,Rectangle",
+                                              "children": [
+                                                {
+                                                  "bounds": {"x1": 131, "y1": 294, "x2": 244, "y2": 352},
+                                                  "element": "Border:#54545CFF,Rectangle"
+                                                },
+                                                {
+                                                  "bounds": {"x1": 135, "y1": 296, "x2": 240, "y2": 350},
+                                                  "elementText": "0",
+                                                  "element": "Label:#F1F1F1FF,Segoe UI,24",
+                                                  "children": [
+                                                    {
+                                                      "bounds": {"x1": 135, "y1": 296, "x2": 240, "y2": 350},
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 135, "y1": 296, "x2": 240, "y2": 350}
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "bounds": {"x1": 13, "y1": 294, "x2": 126, "y2": 352},
+                                      "layout": "Cell:(4,0)*(1,1)",
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 13, "y1": 294, "x2": 126, "y2": 352},
+                                          "control": "Button",
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 13, "y1": 294, "x2": 126, "y2": 352},
+                                              "element": "Background:#3F3F46FF,Rectangle",
+                                              "children": [
+                                                {
+                                                  "bounds": {"x1": 13, "y1": 294, "x2": 126, "y2": 352},
+                                                  "element": "Border:#54545CFF,Rectangle"
+                                                },
+                                                {
+                                                  "bounds": {"x1": 17, "y1": 296, "x2": 122, "y2": 350},
+                                                  "elementText": ".",
+                                                  "element": "Label:#F1F1F1FF,Segoe UI,24",
+                                                  "children": [
+                                                    {
+                                                      "bounds": {"x1": 17, "y1": 296, "x2": 122, "y2": 350},
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 17, "y1": 296, "x2": 122, "y2": 350}
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "bounds": {"x1": 249, "y1": 294, "x2": 362, "y2": 352},
+                                      "layout": "Cell:(4,2)*(1,1)",
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 249, "y1": 294, "x2": 362, "y2": 352},
+                                          "control": "Button",
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 249, "y1": 294, "x2": 362, "y2": 352},
+                                              "element": "Background:#54545CFF,Rectangle",
+                                              "children": [
+                                                {
+                                                  "bounds": {"x1": 249, "y1": 294, "x2": 362, "y2": 352},
+                                                  "element": "Border:#6A6A75FF,Rectangle"
+                                                },
+                                                {
+                                                  "bounds": {"x1": 250, "y1": 295, "x2": 361, "y2": 351},
+                                                  "element": "FocusRectangle"
+                                                },
+                                                {
+                                                  "bounds": {"x1": 253, "y1": 296, "x2": 358, "y2": 350},
+                                                  "elementText": "=",
+                                                  "element": "Label:#F1F1F1FF,Segoe UI,24",
+                                                  "children": [
+                                                    {
+                                                      "bounds": {"x1": 253, "y1": 296, "x2": 358, "y2": 350},
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 253, "y1": 296, "x2": 358, "y2": 350}
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "bounds": {"x1": 367, "y1": 105, "x2": 483, "y2": 163},
+                                      "layout": "Cell:(1,3)*(1,1)",
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 367, "y1": 105, "x2": 483, "y2": 163},
+                                          "control": "Button",
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 367, "y1": 105, "x2": 483, "y2": 163},
+                                              "element": "Background:#3F3F46FF,Rectangle",
+                                              "children": [
+                                                {
+                                                  "bounds": {"x1": 367, "y1": 105, "x2": 483, "y2": 163},
+                                                  "element": "Border:#54545CFF,Rectangle"
+                                                },
+                                                {
+                                                  "bounds": {"x1": 371, "y1": 107, "x2": 479, "y2": 161},
+                                                  "elementText": "CE",
+                                                  "element": "Label:#F1F1F1FF,Segoe UI,24",
+                                                  "children": [
+                                                    {
+                                                      "bounds": {"x1": 371, "y1": 107, "x2": 479, "y2": 161},
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 371, "y1": 107, "x2": 479, "y2": 161}
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "bounds": {"x1": 367, "y1": 168, "x2": 483, "y2": 226},
+                                      "layout": "Cell:(2,3)*(1,1)",
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 367, "y1": 168, "x2": 483, "y2": 226},
+                                          "control": "Button",
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 367, "y1": 168, "x2": 483, "y2": 226},
+                                              "element": "Background:#3F3F46FF,Rectangle",
+                                              "children": [
+                                                {
+                                                  "bounds": {"x1": 367, "y1": 168, "x2": 483, "y2": 226},
+                                                  "element": "Border:#54545CFF,Rectangle"
+                                                },
+                                                {
+                                                  "bounds": {"x1": 371, "y1": 170, "x2": 479, "y2": 224},
+                                                  "elementText": "*",
+                                                  "element": "Label:#F1F1F1FF,Segoe UI,24",
+                                                  "children": [
+                                                    {
+                                                      "bounds": {"x1": 371, "y1": 170, "x2": 479, "y2": 224},
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 371, "y1": 170, "x2": 479, "y2": 224}
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "bounds": {"x1": 367, "y1": 231, "x2": 483, "y2": 352},
+                                      "layout": "Cell:(3,3)*(2,1)",
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 367, "y1": 231, "x2": 483, "y2": 352},
+                                          "control": "Button",
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 367, "y1": 231, "x2": 483, "y2": 352},
+                                              "element": "Background:#3F3F46FF,Rectangle",
+                                              "children": [
+                                                {
+                                                  "bounds": {"x1": 367, "y1": 231, "x2": 483, "y2": 352},
+                                                  "element": "Border:#54545CFF,Rectangle"
+                                                },
+                                                {
+                                                  "bounds": {"x1": 371, "y1": 233, "x2": 479, "y2": 350},
+                                                  "elementText": "+",
+                                                  "element": "Label:#F1F1F1FF,Segoe UI,24",
+                                                  "children": [
+                                                    {
+                                                      "bounds": {"x1": 371, "y1": 233, "x2": 479, "y2": 350},
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 371, "y1": 233, "x2": 479, "y2": 350}
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "SubWindows": [],
+  "Popups": []
+}

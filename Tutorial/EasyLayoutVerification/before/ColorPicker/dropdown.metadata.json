@@ -1,0 +1,31 @@
+{
+  "ClientBounds": {
+    "x1": 0,
+    "y1": 0,
+    "x2": 376,
+    "y2": 165
+  },
+  "FontSettings": "Fonts and sizes recorded on each Label element in the accompanying geometry JSON.",
+  "Configuration": "Debug",
+  "Revision": "4ed1be5f6186bf36573fcf4197cc5018acce4858",
+  "Architecture": "x64",
+  "ProcessId": 14804,
+  "ImageAvailable": false,
+  "Commands": [
+    "Click label 'Black': !LeftClick:162,84"
+  ],
+  "WindowBounds": {
+    "Left": 1100,
+    "Top": 636,
+    "Right": 1476,
+    "Bottom": 801
+  },
+  "Renderer": "Windows Direct2D",
+  "CapturedAt": "2026-09-19T14:45:08.1169664Z",
+  "RequestedSize": {
+    "Width": 0,
+    "Height": 0
+  },
+  "Dpi": 96,
+  "Skin": "darkskin::Theme"
+}

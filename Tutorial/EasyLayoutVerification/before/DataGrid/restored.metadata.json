@@ -1,0 +1,27 @@
+{
+  "Revision": "4ed1be5f6186bf36573fcf4197cc5018acce4858",
+  "Configuration": "Debug",
+  "Renderer": "Windows Direct2D",
+  "FontSettings": "Fonts and sizes recorded on each Label element in the accompanying geometry JSON.",
+  "ImageAvailable": false,
+  "Commands": [],
+  "RequestedSize": {
+    "Width": 640,
+    "Height": 480
+  },
+  "Dpi": 96,
+  "Skin": "darkskin::Theme",
+  "ClientBounds": {
+    "x1": 0,
+    "y1": 0,
+    "x2": 640,
+    "y2": 480
+  },
+  "WindowBounds": {
+    "Left": 960,
+    "Top": 456,
+    "Right": 1600,
+    "Bottom": 936
+  },
+  "Architecture": "x64"
+}

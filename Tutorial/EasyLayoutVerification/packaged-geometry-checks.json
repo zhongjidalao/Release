@@ -1,0 +1,12 @@
+[
+  {
+    "Application": "ColorPicker",
+    "SameInitialElementGeometry": true,
+    "VisualImageAvailable": false
+  },
+  {
+    "Application": "DocumentEditorRibbon",
+    "SameInitialElementGeometry": true,
+    "VisualImageAvailable": false
+  }
+]

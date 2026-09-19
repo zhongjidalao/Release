@@ -1,0 +1,1035 @@
+{
+  "WindowManagement": "MultiWindow",
+  "MainWindow": {
+    "title": "ContainersAndButtons",
+    "windowId": "2342922838360",
+    "bounds": {"x1": 0, "y1": 0, "x2": 496, "y2": 365},
+    "composition": {
+      "bounds": {"x1": 0, "y1": 0, "x2": 496, "y2": 365},
+      "control": "Window",
+      "children": [
+        {
+          "bounds": {"x1": 0, "y1": 0, "x2": 496, "y2": 365},
+          "element": "Background:#2D2D30FF,Rectangle",
+          "children": [
+            {
+              "bounds": {"x1": 0, "y1": 0, "x2": 496, "y2": 365},
+              "element": "Border:#017ACCFF,Rectangle",
+              "children": [
+                {
+                  "bounds": {"x1": 0, "y1": 0, "x2": 496, "y2": 365},
+                  "layout": "Table:3*3",
+                  "children": [
+                    {
+                      "bounds": {"x1": 0, "y1": 0, "x2": 8, "y2": 8},
+                      "layout": "Cell:(0,0)*(1,1)"
+                    },
+                    {
+                      "bounds": {"x1": 488, "y1": 0, "x2": 496, "y2": 8},
+                      "layout": "Cell:(0,2)*(1,1)"
+                    },
+                    {
+                      "bounds": {"x1": 0, "y1": 357, "x2": 8, "y2": 365},
+                      "layout": "Cell:(2,0)*(1,1)"
+                    },
+                    {
+                      "bounds": {"x1": 488, "y1": 357, "x2": 496, "y2": 365},
+                      "layout": "Cell:(2,2)*(1,1)"
+                    },
+                    {
+                      "bounds": {"x1": 0, "y1": 8, "x2": 8, "y2": 357},
+                      "layout": "Cell:(1,0)*(1,1)"
+                    },
+                    {
+                      "bounds": {"x1": 488, "y1": 8, "x2": 496, "y2": 357},
+                      "layout": "Cell:(1,2)*(1,1)"
+                    },
+                    {
+                      "bounds": {"x1": 8, "y1": 0, "x2": 488, "y2": 8},
+                      "layout": "Cell:(0,1)*(1,1)"
+                    },
+                    {
+                      "bounds": {"x1": 8, "y1": 357, "x2": 488, "y2": 365},
+                      "layout": "Cell:(2,1)*(1,1)"
+                    }
+                  ]
+                },
+                {
+                  "bounds": {"x1": 8, "y1": 8, "x2": 488, "y2": 357},
+                  "layout": "Table:2*5",
+                  "children": [
+                    {
+                      "bounds": {"x1": 386, "y1": 8, "x2": 420, "y2": 37},
+                      "layout": "Cell:(0,2)*(1,1)",
+                      "children": [
+                        {
+                          "bounds": {"x1": 387, "y1": 9, "x2": 419, "y2": 36},
+                          "control": "Button",
+                          "children": [
+                            {
+                              "bounds": {"x1": 387, "y1": 9, "x2": 419, "y2": 36},
+                              "element": "Background:#3F3F46FF,Rectangle",
+                              "children": [
+                                {
+                                  "bounds": {"x1": 387, "y1": 9, "x2": 419, "y2": 36},
+                                  "element": "Border:#54545CFF,Rectangle"
+                                },
+                                {
+                                  "bounds": {"x1": 391, "y1": 11, "x2": 415, "y2": 34},
+                                  "elementText": "",
+                                  "element": "Label:#F1F1F1FF,Segoe UI,12",
+                                  "children": [
+                                    {
+                                      "bounds": {"x1": 391, "y1": 11, "x2": 415, "y2": 34},
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 391, "y1": 11, "x2": 415, "y2": 34},
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 391, "y1": 11, "x2": 415, "y2": 34},
+                                              "element": "Polygon"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "bounds": {"x1": 420, "y1": 8, "x2": 454, "y2": 37},
+                      "layout": "Cell:(0,3)*(1,1)",
+                      "children": [
+                        {
+                          "bounds": {"x1": 421, "y1": 9, "x2": 453, "y2": 36},
+                          "control": "Button",
+                          "children": [
+                            {
+                              "bounds": {"x1": 421, "y1": 9, "x2": 453, "y2": 36},
+                              "element": "Background:#3F3F46FF,Rectangle",
+                              "children": [
+                                {
+                                  "bounds": {"x1": 421, "y1": 9, "x2": 453, "y2": 36},
+                                  "element": "Border:#54545CFF,Rectangle"
+                                },
+                                {
+                                  "bounds": {"x1": 425, "y1": 11, "x2": 449, "y2": 34},
+                                  "elementText": "",
+                                  "element": "Label:#F1F1F1FF,Segoe UI,12",
+                                  "children": [
+                                    {
+                                      "bounds": {"x1": 425, "y1": 11, "x2": 449, "y2": 34},
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 425, "y1": 11, "x2": 449, "y2": 34},
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 425, "y1": 11, "x2": 449, "y2": 34},
+                                              "element": "Polygon"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "bounds": {"x1": 454, "y1": 8, "x2": 488, "y2": 37},
+                      "layout": "Cell:(0,4)*(1,1)",
+                      "children": [
+                        {
+                          "bounds": {"x1": 455, "y1": 9, "x2": 487, "y2": 36},
+                          "control": "Button",
+                          "children": [
+                            {
+                              "bounds": {"x1": 455, "y1": 9, "x2": 487, "y2": 36},
+                              "element": "Background:#3F3F46FF,Rectangle",
+                              "children": [
+                                {
+                                  "bounds": {"x1": 455, "y1": 9, "x2": 487, "y2": 36},
+                                  "element": "Border:#54545CFF,Rectangle"
+                                },
+                                {
+                                  "bounds": {"x1": 459, "y1": 11, "x2": 483, "y2": 34},
+                                  "elementText": "",
+                                  "element": "Label:#F1F1F1FF,Segoe UI,12",
+                                  "children": [
+                                    {
+                                      "bounds": {"x1": 459, "y1": 11, "x2": 483, "y2": 34},
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 459, "y1": 11, "x2": 483, "y2": 34},
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 459, "y1": 11, "x2": 483, "y2": 34},
+                                              "element": "Polygon"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "bounds": {"x1": 8, "y1": 8, "x2": 26, "y2": 37},
+                      "layout": "Cell:(0,0)*(1,1)",
+                      "children": [
+                        {
+                          "bounds": {"x1": 8, "y1": 8, "x2": 24, "y2": 37},
+                          "layout": "Table:3*1",
+                          "children": [
+                            {
+                              "bounds": {"x1": 8, "y1": 14, "x2": 24, "y2": 30},
+                              "layout": "Cell:(1,0)*(1,1)",
+                              "element": "Image"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "bounds": {"x1": 26, "y1": 8, "x2": 386, "y2": 37},
+                      "layout": "Cell:(0,1)*(1,1)",
+                      "children": [
+                        {
+                          "bounds": {"x1": 31, "y1": 13, "x2": 381, "y2": 32},
+                          "elementText": "ContainersAndButtons",
+                          "element": "Label:#999999FF,Segoe WP SemiLight,14,Ellipse"
+                        }
+                      ]
+                    },
+                    {
+                      "bounds": {"x1": 8, "y1": 37, "x2": 488, "y2": 357},
+                      "layout": "Cell:(1,0)*(1,5)",
+                      "children": [
+                        {
+                          "bounds": {"x1": 8, "y1": 37, "x2": 488, "y2": 357},
+                          "children": [
+                            {
+                              "bounds": {"x1": 8, "y1": 37, "x2": 488, "y2": 357},
+                              "children": [
+                                {
+                                  "bounds": {"x1": 11, "y1": 40, "x2": 485, "y2": 354},
+                                  "control": "Tab",
+                                  "children": [
+                                    {
+                                      "bounds": {"x1": 11, "y1": 40, "x2": 485, "y2": 354},
+                                      "children": [
+                                        {
+                                          "bounds": {"x1": 11, "y1": 40, "x2": 485, "y2": 354},
+                                          "layout": "Table:3*3",
+                                          "element": "Background:#2D2D30FF,Rectangle",
+                                          "children": [
+                                            {
+                                              "bounds": {"x1": 11, "y1": 40, "x2": 11, "y2": 64},
+                                              "layout": "Cell:(0,0)*(1,1)"
+                                            },
+                                            {
+                                              "bounds": {"x1": 485, "y1": 40, "x2": 485, "y2": 64},
+                                              "layout": "Cell:(0,2)*(1,1)"
+                                            },
+                                            {
+                                              "bounds": {"x1": 11, "y1": 40, "x2": 485, "y2": 64},
+                                              "layout": "Cell:(0,1)*(1,1)",
+                                              "children": [
+                                                {
+                                                  "bounds": {"x1": 11, "y1": 40, "x2": 485, "y2": 64},
+                                                  "layout": "Flow",
+                                                  "children": [
+                                                    {
+                                                      "bounds": {"x1": 78, "y1": 42, "x2": 171, "y2": 64},
+                                                      "layout": "FlowItem:1",
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 78, "y1": 42, "x2": 171, "y2": 64},
+                                                          "children": [
+                                                            {
+                                                              "bounds": {"x1": 78, "y1": 42, "x2": 171, "y2": 64},
+                                                              "control": "CheckBox",
+                                                              "children": [
+                                                                {
+                                                                  "bounds": {"x1": 78, "y1": 42, "x2": 171, "y2": 64},
+                                                                  "element": "Background:#434346FF,Rectangle",
+                                                                  "children": [
+                                                                    {
+                                                                      "bounds": {"x1": 84, "y1": 45, "x2": 165, "y2": 61},
+                                                                      "elementText": "ScrollContainer",
+                                                                      "element": "Label:#F1F1F1FF,Segoe UI,12"
+                                                                    },
+                                                                    {
+                                                                      "bounds": {"x1": 78, "y1": 42, "x2": 171, "y2": 64}
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "bounds": {"x1": 11, "y1": 40, "x2": 80, "y2": 64},
+                                                      "layout": "FlowItem:0",
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 11, "y1": 40, "x2": 80, "y2": 64},
+                                                          "children": [
+                                                            {
+                                                              "bounds": {"x1": 11, "y1": 40, "x2": 80, "y2": 64},
+                                                              "control": "CheckBox",
+                                                              "children": [
+                                                                {
+                                                                  "bounds": {"x1": 11, "y1": 40, "x2": 80, "y2": 64},
+                                                                  "element": "Background:#007ACCFF,Rectangle",
+                                                                  "children": [
+                                                                    {
+                                                                      "bounds": {"x1": 17, "y1": 43, "x2": 74, "y2": 61},
+                                                                      "elementText": "GroupBox",
+                                                                      "element": "Label:#F1F1F1FF,Segoe UI,12"
+                                                                    },
+                                                                    {
+                                                                      "bounds": {"x1": 11, "y1": 40, "x2": 80, "y2": 64}
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "bounds": {"x1": 11, "y1": 64, "x2": 485, "y2": 66},
+                                              "layout": "Cell:(1,0)*(1,3)",
+                                              "element": "Background:#007ACCFF,Rectangle"
+                                            },
+                                            {
+                                              "bounds": {"x1": 11, "y1": 66, "x2": 485, "y2": 354},
+                                              "layout": "Cell:(2,0)*(1,3)",
+                                              "element": "Border:#434346FF,Rectangle",
+                                              "children": [
+                                                {
+                                                  "bounds": {"x1": 12, "y1": 67, "x2": 484, "y2": 353},
+                                                  "children": [
+                                                    {
+                                                      "bounds": {"x1": 12, "y1": 67, "x2": 484, "y2": 353},
+                                                      "children": [
+                                                        {
+                                                          "bounds": {"x1": 12, "y1": 67, "x2": 484, "y2": 353},
+                                                          "control": "CustomControl",
+                                                          "children": [
+                                                            {
+                                                              "bounds": {"x1": 12, "y1": 67, "x2": 484, "y2": 353},
+                                                              "children": [
+                                                                {
+                                                                  "bounds": {"x1": 12, "y1": 67, "x2": 484, "y2": 353},
+                                                                  "children": [
+                                                                    {
+                                                                      "bounds": {"x1": 12, "y1": 67, "x2": 484, "y2": 353},
+                                                                      "layout": "Table:1*3",
+                                                                      "children": [
+                                                                        {
+                                                                          "bounds": {"x1": 17, "y1": 72, "x2": 167, "y2": 348},
+                                                                          "layout": "Cell:(0,0)*(1,1)",
+                                                                          "children": [
+                                                                            {
+                                                                              "bounds": {"x1": 17, "y1": 72, "x2": 167, "y2": 348},
+                                                                              "control": "GroupBox",
+                                                                              "children": [
+                                                                                {
+                                                                                  "bounds": {"x1": 17, "y1": 72, "x2": 167, "y2": 348},
+                                                                                  "element": "Background:#2D2D30FF,Rectangle",
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "bounds": {"x1": 17, "y1": 80, "x2": 167, "y2": 348},
+                                                                                      "element": "Border:#3F3F46FF,Rectangle",
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "bounds": {"x1": 18, "y1": 89, "x2": 166, "y2": 347},
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "bounds": {"x1": 18, "y1": 89, "x2": 166, "y2": 347},
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "bounds": {"x1": 23, "y1": 94, "x2": 161, "y2": 342},
+                                                                                                  "layout": "Stack",
+                                                                                                  "children": [
+                                                                                                    {
+                                                                                                      "bounds": {"x1": 23, "y1": 94, "x2": 161, "y2": 114},
+                                                                                                      "layout": "StackItem:0",
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "bounds": {"x1": 23, "y1": 94, "x2": 161, "y2": 114},
+                                                                                                          "control": "Button",
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "bounds": {"x1": 23, "y1": 94, "x2": 161, "y2": 114},
+                                                                                                              "element": "Background:#3F3F46FF,Rectangle",
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "bounds": {"x1": 23, "y1": 94, "x2": 161, "y2": 114},
+                                                                                                                  "element": "Border:#54545CFF,Rectangle"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "bounds": {"x1": 27, "y1": 96, "x2": 157, "y2": 112},
+                                                                                                                  "elementText": "Button 1",
+                                                                                                                  "element": "Label:#F1F1F1FF,Segoe UI,12",
+                                                                                                                  "children": [
+                                                                                                                    {
+                                                                                                                      "bounds": {"x1": 27, "y1": 96, "x2": 157, "y2": 112},
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 27, "y1": 96, "x2": 157, "y2": 112}
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "bounds": {"x1": 23, "y1": 119, "x2": 161, "y2": 139},
+                                                                                                      "layout": "StackItem:1",
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "bounds": {"x1": 23, "y1": 119, "x2": 161, "y2": 139},
+                                                                                                          "control": "Button",
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "bounds": {"x1": 23, "y1": 119, "x2": 161, "y2": 139},
+                                                                                                              "element": "Background:#3F3F46FF,Rectangle",
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "bounds": {"x1": 23, "y1": 119, "x2": 161, "y2": 139},
+                                                                                                                  "element": "Border:#54545CFF,Rectangle"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "bounds": {"x1": 27, "y1": 121, "x2": 157, "y2": 137},
+                                                                                                                  "elementText": "Button 2",
+                                                                                                                  "element": "Label:#F1F1F1FF,Segoe UI,12",
+                                                                                                                  "children": [
+                                                                                                                    {
+                                                                                                                      "bounds": {"x1": 27, "y1": 121, "x2": 157, "y2": 137},
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 27, "y1": 121, "x2": 157, "y2": 137}
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "bounds": {"x1": 23, "y1": 144, "x2": 161, "y2": 164},
+                                                                                                      "layout": "StackItem:2",
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "bounds": {"x1": 23, "y1": 144, "x2": 161, "y2": 164},
+                                                                                                          "control": "Button",
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "bounds": {"x1": 23, "y1": 144, "x2": 161, "y2": 164},
+                                                                                                              "element": "Background:#3F3F46FF,Rectangle",
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "bounds": {"x1": 23, "y1": 144, "x2": 161, "y2": 164},
+                                                                                                                  "element": "Border:#54545CFF,Rectangle"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "bounds": {"x1": 27, "y1": 146, "x2": 157, "y2": 162},
+                                                                                                                  "elementText": "Button 3",
+                                                                                                                  "element": "Label:#F1F1F1FF,Segoe UI,12",
+                                                                                                                  "children": [
+                                                                                                                    {
+                                                                                                                      "bounds": {"x1": 27, "y1": 146, "x2": 157, "y2": 162},
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 27, "y1": 146, "x2": 157, "y2": 162}
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "bounds": {"x1": 22, "y1": 72, "x2": 62, "y2": 88},
+                                                                                      "element": "Background:#2D2D30FF,Rectangle",
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "bounds": {"x1": 24, "y1": 72, "x2": 60, "y2": 88},
+                                                                                          "elementText": "Button",
+                                                                                          "element": "Label:#C7C7C7FF,Segoe UI,12"
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "bounds": {"x1": 172, "y1": 72, "x2": 322, "y2": 348},
+                                                                          "layout": "Cell:(0,1)*(1,1)",
+                                                                          "children": [
+                                                                            {
+                                                                              "bounds": {"x1": 172, "y1": 72, "x2": 322, "y2": 348},
+                                                                              "control": "GroupBox",
+                                                                              "children": [
+                                                                                {
+                                                                                  "bounds": {"x1": 172, "y1": 72, "x2": 322, "y2": 348},
+                                                                                  "element": "Background:#2D2D30FF,Rectangle",
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "bounds": {"x1": 172, "y1": 80, "x2": 322, "y2": 348},
+                                                                                      "element": "Border:#3F3F46FF,Rectangle",
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "bounds": {"x1": 173, "y1": 89, "x2": 321, "y2": 347},
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "bounds": {"x1": 173, "y1": 89, "x2": 321, "y2": 347},
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "bounds": {"x1": 178, "y1": 94, "x2": 316, "y2": 342},
+                                                                                                  "layout": "Stack",
+                                                                                                  "children": [
+                                                                                                    {
+                                                                                                      "bounds": {"x1": 178, "y1": 94, "x2": 316, "y2": 115},
+                                                                                                      "layout": "StackItem:0",
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "bounds": {"x1": 178, "y1": 94, "x2": 316, "y2": 115},
+                                                                                                          "control": "CheckBox",
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "bounds": {"x1": 178, "y1": 94, "x2": 316, "y2": 115},
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "bounds": {"x1": 178, "y1": 94, "x2": 316, "y2": 115},
+                                                                                                                  "layout": "Table:3*2",
+                                                                                                                  "children": [
+                                                                                                                    {
+                                                                                                                      "bounds": {"x1": 178, "y1": 96, "x2": 195, "y2": 113},
+                                                                                                                      "layout": "Cell:(1,0)*(1,1)",
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 180, "y1": 98, "x2": 193, "y2": 111},
+                                                                                                                          "element": "Background:#3F3F46FF,Rectangle"
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 180, "y1": 98, "x2": 193, "y2": 111},
+                                                                                                                          "element": "Border:#54545CFF,Rectangle"
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                      "bounds": {"x1": 195, "y1": 94, "x2": 316, "y2": 115},
+                                                                                                                      "layout": "Cell:(0,1)*(3,1)",
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 197, "y1": 94, "x2": 251, "y2": 115},
+                                                                                                                          "children": [
+                                                                                                                            {
+                                                                                                                              "bounds": {"x1": 201, "y1": 96, "x2": 247, "y2": 113},
+                                                                                                                              "elementText": "Button 1",
+                                                                                                                              "element": "Label:#F1F1F1FF,Segoe UI,12",
+                                                                                                                              "children": [
+                                                                                                                                {
+                                                                                                                                  "bounds": {"x1": 201, "y1": 96, "x2": 247, "y2": 113},
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "bounds": {"x1": 201, "y1": 96, "x2": 247, "y2": 113}
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                }
+                                                                                                                              ]
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "bounds": {"x1": 178, "y1": 120, "x2": 316, "y2": 141},
+                                                                                                      "layout": "StackItem:1",
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "bounds": {"x1": 178, "y1": 120, "x2": 316, "y2": 141},
+                                                                                                          "control": "CheckBox",
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "bounds": {"x1": 178, "y1": 120, "x2": 316, "y2": 141},
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "bounds": {"x1": 178, "y1": 120, "x2": 316, "y2": 141},
+                                                                                                                  "layout": "Table:3*2",
+                                                                                                                  "children": [
+                                                                                                                    {
+                                                                                                                      "bounds": {"x1": 178, "y1": 122, "x2": 195, "y2": 139},
+                                                                                                                      "layout": "Cell:(1,0)*(1,1)",
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 180, "y1": 124, "x2": 193, "y2": 137},
+                                                                                                                          "element": "Background:#3F3F46FF,Rectangle"
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 180, "y1": 124, "x2": 193, "y2": 137},
+                                                                                                                          "element": "Border:#54545CFF,Rectangle"
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                      "bounds": {"x1": 195, "y1": 120, "x2": 316, "y2": 141},
+                                                                                                                      "layout": "Cell:(0,1)*(3,1)",
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 197, "y1": 120, "x2": 251, "y2": 141},
+                                                                                                                          "children": [
+                                                                                                                            {
+                                                                                                                              "bounds": {"x1": 201, "y1": 122, "x2": 247, "y2": 139},
+                                                                                                                              "elementText": "Button 2",
+                                                                                                                              "element": "Label:#F1F1F1FF,Segoe UI,12",
+                                                                                                                              "children": [
+                                                                                                                                {
+                                                                                                                                  "bounds": {"x1": 201, "y1": 122, "x2": 247, "y2": 139},
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "bounds": {"x1": 201, "y1": 122, "x2": 247, "y2": 139}
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                }
+                                                                                                                              ]
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "bounds": {"x1": 178, "y1": 146, "x2": 316, "y2": 167},
+                                                                                                      "layout": "StackItem:2",
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "bounds": {"x1": 178, "y1": 146, "x2": 316, "y2": 167},
+                                                                                                          "control": "CheckBox",
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "bounds": {"x1": 178, "y1": 146, "x2": 316, "y2": 167},
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "bounds": {"x1": 178, "y1": 146, "x2": 316, "y2": 167},
+                                                                                                                  "layout": "Table:3*2",
+                                                                                                                  "children": [
+                                                                                                                    {
+                                                                                                                      "bounds": {"x1": 178, "y1": 148, "x2": 195, "y2": 165},
+                                                                                                                      "layout": "Cell:(1,0)*(1,1)",
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 180, "y1": 150, "x2": 193, "y2": 163},
+                                                                                                                          "element": "Background:#3F3F46FF,Rectangle"
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 180, "y1": 150, "x2": 193, "y2": 163},
+                                                                                                                          "element": "Border:#54545CFF,Rectangle"
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                      "bounds": {"x1": 195, "y1": 146, "x2": 316, "y2": 167},
+                                                                                                                      "layout": "Cell:(0,1)*(3,1)",
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 197, "y1": 146, "x2": 251, "y2": 167},
+                                                                                                                          "children": [
+                                                                                                                            {
+                                                                                                                              "bounds": {"x1": 201, "y1": 148, "x2": 247, "y2": 165},
+                                                                                                                              "elementText": "Button 3",
+                                                                                                                              "element": "Label:#F1F1F1FF,Segoe UI,12",
+                                                                                                                              "children": [
+                                                                                                                                {
+                                                                                                                                  "bounds": {"x1": 201, "y1": 148, "x2": 247, "y2": 165},
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "bounds": {"x1": 201, "y1": 148, "x2": 247, "y2": 165}
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                }
+                                                                                                                              ]
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "bounds": {"x1": 177, "y1": 72, "x2": 233, "y2": 88},
+                                                                                      "element": "Background:#2D2D30FF,Rectangle",
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "bounds": {"x1": 179, "y1": 72, "x2": 231, "y2": 88},
+                                                                                          "elementText": "CheckBox",
+                                                                                          "element": "Label:#C7C7C7FF,Segoe UI,12"
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "bounds": {"x1": 327, "y1": 72, "x2": 479, "y2": 348},
+                                                                          "layout": "Cell:(0,2)*(1,1)",
+                                                                          "children": [
+                                                                            {
+                                                                              "bounds": {"x1": 327, "y1": 72, "x2": 479, "y2": 348},
+                                                                              "control": "GroupBox",
+                                                                              "children": [
+                                                                                {
+                                                                                  "bounds": {"x1": 327, "y1": 72, "x2": 479, "y2": 348},
+                                                                                  "element": "Background:#2D2D30FF,Rectangle",
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "bounds": {"x1": 327, "y1": 80, "x2": 479, "y2": 348},
+                                                                                      "element": "Border:#3F3F46FF,Rectangle",
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "bounds": {"x1": 328, "y1": 89, "x2": 478, "y2": 347},
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "bounds": {"x1": 328, "y1": 89, "x2": 478, "y2": 347},
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "bounds": {"x1": 333, "y1": 94, "x2": 473, "y2": 342},
+                                                                                                  "layout": "Stack",
+                                                                                                  "children": [
+                                                                                                    {
+                                                                                                      "bounds": {"x1": 333, "y1": 94, "x2": 473, "y2": 115},
+                                                                                                      "layout": "StackItem:0",
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "bounds": {"x1": 333, "y1": 94, "x2": 473, "y2": 115},
+                                                                                                          "control": "RadioButton",
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "bounds": {"x1": 333, "y1": 94, "x2": 473, "y2": 115},
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "bounds": {"x1": 333, "y1": 94, "x2": 473, "y2": 115},
+                                                                                                                  "layout": "Table:3*2",
+                                                                                                                  "children": [
+                                                                                                                    {
+                                                                                                                      "bounds": {"x1": 333, "y1": 96, "x2": 350, "y2": 113},
+                                                                                                                      "layout": "Cell:(1,0)*(1,1)",
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 335, "y1": 98, "x2": 348, "y2": 111},
+                                                                                                                          "element": "Background:#3F3F46FF,Ellipse"
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 335, "y1": 98, "x2": 348, "y2": 111},
+                                                                                                                          "element": "Border:#54545CFF,Ellipse"
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 338, "y1": 101, "x2": 345, "y2": 108},
+                                                                                                                          "element": "Background:#F1F1F1FF,Ellipse"
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                      "bounds": {"x1": 350, "y1": 94, "x2": 473, "y2": 115},
+                                                                                                                      "layout": "Cell:(0,1)*(3,1)",
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 352, "y1": 94, "x2": 406, "y2": 115},
+                                                                                                                          "children": [
+                                                                                                                            {
+                                                                                                                              "bounds": {"x1": 356, "y1": 96, "x2": 402, "y2": 113},
+                                                                                                                              "elementText": "Button 1",
+                                                                                                                              "element": "Label:#F1F1F1FF,Segoe UI,12",
+                                                                                                                              "children": [
+                                                                                                                                {
+                                                                                                                                  "bounds": {"x1": 356, "y1": 96, "x2": 402, "y2": 113},
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "bounds": {"x1": 356, "y1": 96, "x2": 402, "y2": 113}
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                }
+                                                                                                                              ]
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "bounds": {"x1": 333, "y1": 120, "x2": 473, "y2": 141},
+                                                                                                      "layout": "StackItem:1",
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "bounds": {"x1": 333, "y1": 120, "x2": 473, "y2": 141},
+                                                                                                          "control": "RadioButton",
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "bounds": {"x1": 333, "y1": 120, "x2": 473, "y2": 141},
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "bounds": {"x1": 333, "y1": 120, "x2": 473, "y2": 141},
+                                                                                                                  "layout": "Table:3*2",
+                                                                                                                  "children": [
+                                                                                                                    {
+                                                                                                                      "bounds": {"x1": 333, "y1": 122, "x2": 350, "y2": 139},
+                                                                                                                      "layout": "Cell:(1,0)*(1,1)",
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 335, "y1": 124, "x2": 348, "y2": 137},
+                                                                                                                          "element": "Background:#3F3F46FF,Ellipse"
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 335, "y1": 124, "x2": 348, "y2": 137},
+                                                                                                                          "element": "Border:#54545CFF,Ellipse"
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                      "bounds": {"x1": 350, "y1": 120, "x2": 473, "y2": 141},
+                                                                                                                      "layout": "Cell:(0,1)*(3,1)",
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 352, "y1": 120, "x2": 406, "y2": 141},
+                                                                                                                          "children": [
+                                                                                                                            {
+                                                                                                                              "bounds": {"x1": 356, "y1": 122, "x2": 402, "y2": 139},
+                                                                                                                              "elementText": "Button 2",
+                                                                                                                              "element": "Label:#F1F1F1FF,Segoe UI,12",
+                                                                                                                              "children": [
+                                                                                                                                {
+                                                                                                                                  "bounds": {"x1": 356, "y1": 122, "x2": 402, "y2": 139},
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "bounds": {"x1": 356, "y1": 122, "x2": 402, "y2": 139}
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                }
+                                                                                                                              ]
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "bounds": {"x1": 333, "y1": 146, "x2": 473, "y2": 167},
+                                                                                                      "layout": "StackItem:2",
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "bounds": {"x1": 333, "y1": 146, "x2": 473, "y2": 167},
+                                                                                                          "control": "RadioButton",
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "bounds": {"x1": 333, "y1": 146, "x2": 473, "y2": 167},
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "bounds": {"x1": 333, "y1": 146, "x2": 473, "y2": 167},
+                                                                                                                  "layout": "Table:3*2",
+                                                                                                                  "children": [
+                                                                                                                    {
+                                                                                                                      "bounds": {"x1": 333, "y1": 148, "x2": 350, "y2": 165},
+                                                                                                                      "layout": "Cell:(1,0)*(1,1)",
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 335, "y1": 150, "x2": 348, "y2": 163},
+                                                                                                                          "element": "Background:#3F3F46FF,Ellipse"
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 335, "y1": 150, "x2": 348, "y2": 163},
+                                                                                                                          "element": "Border:#54545CFF,Ellipse"
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                      "bounds": {"x1": 350, "y1": 146, "x2": 473, "y2": 167},
+                                                                                                                      "layout": "Cell:(0,1)*(3,1)",
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "bounds": {"x1": 352, "y1": 146, "x2": 406, "y2": 167},
+                                                                                                                          "children": [
+                                                                                                                            {
+                                                                                                                              "bounds": {"x1": 356, "y1": 148, "x2": 402, "y2": 165},
+                                                                                                                              "elementText": "Button 3",
+                                                                                                                              "element": "Label:#F1F1F1FF,Segoe UI,12",
+                                                                                                                              "children": [
+                                                                                                                                {
+                                                                                                                                  "bounds": {"x1": 356, "y1": 148, "x2": 402, "y2": 165},
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "bounds": {"x1": 356, "y1": 148, "x2": 402, "y2": 165}
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                }
+                                                                                                                              ]
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "bounds": {"x1": 332, "y1": 72, "x2": 402, "y2": 88},
+                                                                                      "element": "Background:#2D2D30FF,Rectangle",
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "bounds": {"x1": 334, "y1": 72, "x2": 400, "y2": 88},
+                                                                                          "elementText": "RadioButton",
+                                                                                          "element": "Label:#C7C7C7FF,Segoe UI,12"
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "SubWindows": [],
+  "Popups": []
+}

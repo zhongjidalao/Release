@@ -1,0 +1,29 @@
+﻿{
+    "Application":  "CppTest_Reflection",
+    "Architecture":  "x64",
+    "Configuration":  "Debug",
+    "CapturedAt":  "2026-09-19T16:29:09.0543371Z",
+    "Driver":  "Windows UI Automation, MTA client",
+    "Text":  "Retained through UI Automation",
+    "EditorIdentityRetained":  true,
+    "TextRetained":  true,
+    "Before":  {
+                   "X":  1185,
+                   "Y":  613,
+                   "Width":  390,
+                   "Height":  284
+               },
+    "AfterStoredChange":  {
+                              "X":  1185,
+                              "Y":  613,
+                              "Width":  390,
+                              "Height":  284
+                          },
+    "AfterExplicitBuild":  {
+                               "X":  985,
+                               "Y":  714,
+                               "Width":  590,
+                               "Height":  183
+                           },
+    "Passed":  true
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "Application": "ContainersAndButtons",
+    "Port": 9091,
+    "Configuration": "Debug",
+    "Architecture": "x64",
+    "Title": "ContainersAndButtons",
+    "ExitCode": 0,
+    "ListenerAfterExit": false,
+    "ConcurrentEndpointsVerified": true
+  },
+  {
+    "Application": "Animation",
+    "Port": 9092,
+    "Configuration": "Debug",
+    "Architecture": "x64",
+    "Title": "GacUI XML资源临时测试",
+    "ExitCode": 0,
+    "ListenerAfterExit": false,
+    "ConcurrentEndpointsVerified": true
+  }
+]

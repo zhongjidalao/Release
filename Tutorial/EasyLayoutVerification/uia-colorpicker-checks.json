@@ -1,0 +1,15 @@
+{
+  "Application": "ColorPicker",
+  "Architecture": "x64",
+  "Configuration": "Debug",
+  "Driver": "Windows UI Automation, MTA client",
+  "Actions": [
+    "ComboBox ExpandCollapse.Expand",
+    "ListItem Maroon SelectionItem.Select",
+    "ComboBox ExpandCollapse.Collapse",
+    "ComboBox Selection.Current.GetSelection"
+  ],
+  "Selected": "Maroon",
+  "HTTPGeometryState": "packaged/ColorPicker/maroon-uia-selected.json",
+  "Passed": true
+}

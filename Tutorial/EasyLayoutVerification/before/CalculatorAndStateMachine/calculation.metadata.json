@@ -1,0 +1,34 @@
+{
+  "ProcessId": 22552,
+  "Dpi": 96,
+  "FontSettings": "Fonts and sizes recorded on each Label element in the accompanying geometry JSON.",
+  "RequestedSize": {
+    "Width": 0,
+    "Height": 0
+  },
+  "CapturedAt": "2026-09-19T14:41:15.1166343Z",
+  "ClientBounds": {
+    "x1": 0,
+    "y1": 0,
+    "x2": 496,
+    "y2": 365
+  },
+  "Revision": "4ed1be5f6186bf36573fcf4197cc5018acce4858",
+  "WindowBounds": {
+    "Left": 1040,
+    "Top": 536,
+    "Right": 1536,
+    "Bottom": 901
+  },
+  "ImageAvailable": false,
+  "Skin": "darkskin::Theme",
+  "Renderer": "Windows Direct2D",
+  "Commands": [
+    "Click label '1': !LeftClick:70,134",
+    "Click label '+': !LeftClick:425,292",
+    "Click label '2': !LeftClick:188,134",
+    "Click label '=': !LeftClick:306,323"
+  ],
+  "Architecture": "x64",
+  "Configuration": "Debug"
+}
