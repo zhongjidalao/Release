@@ -3,6 +3,7 @@ param(
     [int]$Port = 8901,
     [string]$Phase = 'before',
     [string]$State = 'initial',
+    [string]$OutputDirectory = '',
     [string[]]$ClickText = @(),
     [string[]]$Commands = @(),
     [int]$Width = 0,
@@ -100,7 +101,8 @@ Start-Sleep -Milliseconds 250
 Read-TargetWindows
 $response=(Invoke-WebRequest "$endpoint/Controls" -TimeoutSec 30).Content
 $dump=$response|ConvertFrom-Json -Depth 1024
-$outputFolder=Join-Path $PSScriptRoot "$Phase/$Application"
+$outputRoot=if ($OutputDirectory) { [IO.Path]::GetFullPath($OutputDirectory) } else { $PSScriptRoot }
+$outputFolder=Join-Path $outputRoot "$Phase/$Application"
 [void][IO.Directory]::CreateDirectory($outputFolder)
 [IO.File]::WriteAllText("$outputFolder/$State.json",$response)
 $rect=New-Object EasyLayoutCapture+RECT

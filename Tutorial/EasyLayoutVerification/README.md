@@ -1,31 +1,53 @@
 # Easy-layout tutorial verification
 
-Baseline revision: `4ed1be5f6186bf36573fcf4197cc5018acce4858`, with the shared Debug automation launcher change in this request. Authored tutorial XML has not been migrated yet.
+The migration rewrites 41 static arrangements: 32 tables (10 as docking layouts and 22 as grids) and nine stacks. It updates **19 existing XML files and adds three tutorial-owned editor XML files**. Seventeen existing files contain layout changes; the other two update resource links.
 
-The `before` folder contains HTTP control/element geometry for all 18 runnable GacUI_Controls applications at initial, smaller, larger, and restored sizes. A requested smaller size may be clamped by the existing minimum. Metadata beside each state records the actual native client bounds, window bounds, renderer, skin, DPI, architecture, configuration, and commands. Label elements record font family and size. These captures use Windows Direct2D, the dark skin, Debug x64, and 96 DPI.
+All 27 original XML files under GacUI_Controls were reviewed, together with the linked document-editor definitions. The resulting 30 XML files preserve control attributes, bindings, names and script tokens. Generated UI/Source files were regenerated through Tools/GacBuild.ps1 and Tutorial/GacUI.xml.
 
-**Visual verification is incomplete.** Windows Graphics Capture failed with `IGraphicsCaptureItemInterop.CreateForMonitor` / `0x80070057`; PrintWindow returned black images, which were discarded; the documented CopyFromScreen fallback failed with an invalid screen handle. `ImageAvailable: false` explicitly marks states without an image. The desktop display must be available before accepting the requested visual equivalence checks.
+## Converted arrangements
 
-Additional geometry states cover both ContainersAndButtons pages; populated TextList, TreeView and ListView pages; Animation's complex page; calculator `1 + 2 = 3`; both color-picker dropdowns; AddressBook's splitter moved 60 pixels; DataGrid view choices; dialog tabs; both document-editor variants and menus; localization language choices; progress/download states; context menus; and disabled image buttons. These are partial interaction coverage, not a claim that every popup, dialog, or editor state has passed.
+| Tutorial/resource | Arrangements | Coverage |
+| --- | ---: | --- |
+| AddressBook | 4 | Both group-box contents and the new-folder/new-contact forms; preserve the 3-pixel content inset. |
+| Animation | 1 | Static gradient page; retain the animated bounds on the complex-animation page. |
+| ColorPicker | 2 | Main form and swatch/text template; preserve padding 10 and the 16/3-pixel swatch tracks. |
+| ColorPicker2 | 2 | Main form and item template; preserve the repeated flow, shared-size groups, 2-pixel flow spacing and 1-pixel inset. |
+| ContainersAndButtons | 5 | Group-box columns, three button stacks and the scroll-container grid. |
+| DataGrid | 3 | Main layout, category template and date-filter form. |
+| Dialogs | 7 | All four configuration pages and the file-dialog checkbox/button stacks. |
+| DocumentEditor | 3 | Shared editor arrangement and both hyperlink-form tables. |
+| DocumentEditorRibbon | 2 | Style-item template and search stack. |
+| GlobalHotKey | 1 | Menu/content docking. |
+| ListControls | 4 | TextList, ListView and TreeView pages, including the action-button stack. |
+| Localization | 1 | Locale selector and localized list. |
+| MenuVisibility | 1 | Menu/content docking. |
+| ProgressAndAsync | 1 | Progress/action row and output area. |
+| QueryService | 2 | Centered service control and its editor/label arrangement. |
+| TriplePhaseImageButton | 2 | Button template and demo stack. |
 
-`Capture.ps1` reuses a running application or starts its Debug x64 executable from the corresponding tutorial project directory. It checks for native runtime-error dialogs, uses the application's HTTP automation to capture geometry and deliver commands, and records only nonblack Win32 image captures. To reproduce an interaction, start from the named application's initial state and apply the commands in its state metadata; related states from the same process are ordered by `CapturedAt`.
+DocumentComponents.xml, DocumentEditorBase.xml and DocumentEditorRibbon.xml are now owned by these tutorials. Their resource manifests link the local copies, and their Visual Studio project inventories include them. Toolbar images and the unchanged DocumentEditorToolstrip definition remain shared with the showcase.
 
-The baseline used a legacy Release automation library that could not resolve explicit 64-bit window IDs (it used `wtou`). Main-window requests worked without an ID. The release pipeline has now published current GacUI source, including the 64-bit conversion fix. After rebuilding, explicit main-window and popup IDs worked for ColorPicker and DocumentEditorRibbon. Their initial element/text/rectangle sequences match the baseline exactly; `packaged-geometry-checks.json` records that comparison.
+Bounds wrappers preserve the old external alignment, cell/internal margins, minimum-size boundaries and control alignment. Explicit padding and track options retain each tutorial's spacing. Empty grid descriptors preserve unused tracks.
 
-Nine malformed/duplicate `/AsPort` arguments exited with code 1: zero, 65536, empty, alphabetic, missing colon/value, a trailing letter, duplicate values, negative, and excessive decimal digits. The requested default-port/concurrent-default-port check remains pending: automatic approval review rejected that command with “blocked by policy.” Selected-port endpoints were exercised concurrently throughout these captures.
+The native AddressBook table remains because its ColumnSplitter operates on that table. The calculator retains its table with spans on both axes and its Cell/Button style selector. Specialized repeated/shared-size compositions and animated bounds also remain. Win11ToolstripMenu, the document-toolstrip wrapper, the ListControls manifest and its four image/script XML resources have no static table/stack arrangement to replace.
 
-The Release x64 tutorial solution built with zero warnings/errors. All 18 applications displayed a native window, left their explicitly requested test ports (9051–9068) without listeners, and exited with status 0 after a normal window close. Results are in `release-launch-checks.json`. The native helper reads ANSI titles, so non-ASCII captions in this particular launch-check file are lossy; the geometry baseline uses Unicode titles. These checks precede the library release pipeline update.
+## Results
 
-`debug-shutdown-checks.json` records an additional concurrent Debug check: ContainersAndButtons on 9091 and Animation on 9092 both served their own control trees, accepted `!Exit`, exited 0, and released their listening ports.
+- Resource generation discovers all 52 tutorial resources. All 19 GacUI_Controls resource projects regenerate successfully for x86 and x64, with no Errors.txt.
+- GacUI_Controls builds with zero warnings/errors in Debug Win32, Debug x64 and Release x64.
+- All 18 applications match at initial, smaller, larger and restored sizes: **72 comparisons** of element descriptions, label text, document content, control types, bounds and ancestor-bound intersections. The archived original executables also reproduce all 72 earlier baseline states. Localization's current time is normalized.
+- **66 additional state comparisons** cover address-book forms, text entry and splitter movement; gradient animation; both color palettes and selections; checkbox/scroll-container behavior; DataGrid views; dialog configuration pages; both editor variants, ribbon tabs/search and menus; populated/filtered lists and list views; localization; progress/download; title binding; image-button states; and context menus. All geometry matches. The intermediate gradient color varies with elapsed animation time; the settled color matches. Downloaded document content differs only in Microsoft's per-request CV token, which is normalized.
+- Windows UI Automation from an MTA client passes ColorPicker expansion/Maroon selection/collapse, QueryService ValuePattern editing and title binding, ListControls InvokePattern adding items, and ribbon Insert/Edit SelectionItemPattern switching.
+- All 18 final Release x64 applications open native windows, have no requested-port or process-owned listener, and exit 0 on normal close. Successful Debug checks also close with exit 0.
 
-The established release pipeline refreshed packed GacUI source, both skins, compiler tools, and architecture metadata. `GacClear.ps1` and `GacBuild.ps1` then regenerated all 52 resources selected by `Tutorial/GacUI.xml` for x86 and x64. `generation-checks.json` verifies all 520 declared outputs exist and were produced during this run, with no compiler error files. GacUI_Controls generated sources remained byte-identical before migration. The shared resource scanner was corrected in Tools commit `b514f7b` to accept implicit GacUI namespace prefixes during discovery.
+An early HTTP probe exposed a race in the previous Debug launcher: the request could resolve the automation service before optional utility-service registration completed. CDB located the exception in GuiInitializeUtilities, before GuiMain. WinMain.cpp now schedules endpoint startup on the native main-thread queue after service substitution. The rebuilt applications pass the subsequent launch and interaction checks. This does not change layout or enable automation in Release builds.
 
-The updated GacUI_Controls solution builds in Debug Win32, Debug x64 and Release x64 with zero warnings/errors. GacUI_HelloWorlds and GacUI_ControlTemplate also build in Debug x64 with zero warnings/errors, verifying the full library and the copied easy-layout showcase. Both packaged Windows-source consumers now use `/bigobj` for `GacUI.Windows.cpp`, whose published UI Automation implementation exceeds MSVC's ordinary section limit. `packaged-release-launch-checks.json` records a second launch/close pass over all 18 rebuilt Release applications: each displayed its native window, had no process-owned listening socket, and exited 0. `packaged-debug-shutdown-checks.json` records successful `!Exit`, status 0 and released ports for ColorPicker, DocumentEditorRibbon and the GacUI full-reflection showcase after their interaction checks.
+## Evidence and limits
 
-The post-package states were captured after external interaction commands, so their capture metadata has an empty `Commands` list. Reproduce `packaged/ColorPicker/green-selected` by opening the initially Black combo using its main-window ID, then clicking Green at popup-local (140,74) using the popup ID. Reproduce the ribbon's `menu-dismissed` state by clicking HOME using its main-window ID, then sending `!KeyPress:ESC` to its popup ID. Query current IDs from `/Controls`; recorded IDs are transient. The Maroon state follows the UIA sequence in `uia-colorpicker-checks.json`.
+The earlier JSON baselines and automation records are available in Release commit e179f7e7. The requested separate cleanup commit removes the 206 JSON files introduced there. New before/after captures were kept outside the repository in a temporary verification directory.
 
-Sky returned an empty accessibility tree, but a direct Windows UI Automation MTA client succeeded. ColorPicker supports combo expansion/collapse and selecting Maroon; SelectionPattern reported Maroon afterward. `uia-showcase-checks.json` records a separate full-reflection easy-layout check: select Layout / Easy Layout, set the editor through ValuePattern, toggle the stored direction, then invoke Rebuild. Geometry stays unchanged until Rebuild; afterward the editor retains its runtime identity and text. UIA rectangles use screen coordinates. These interaction results do not substitute for the missing visual migration baselines.
+Capture.ps1 supports -OutputDirectory to keep future captures outside the checkout. It records the renderer, skin, DPI, actual window size and commands, and checks for native runtime-error dialogs. To compare versions, use the same Windows Direct2D renderer, dark skin, Debug x64, 96 DPI and interaction sequence; compare rendered content and geometry while ignoring composition topology and transient IDs.
 
-Migration must retain AddressBook's splitter, ColorPicker2's repeated flow/shared-size subtree, and any native table requiring incompatible spans on both axes (including the calculator table). Preserve the 3-pixel AddressBook inset, 10-pixel ColorPicker spacing, and ColorPicker2's 2-pixel flow gaps and 1-pixel inner margin. No tutorial migration or equivalence result is claimed by this baseline folder.
+Pixel-image comparison remains unavailable: PrintWindow returns black images in this session, and earlier screen-capture alternatives failed. Geometry, unchanged element properties/assets and live interaction checks provide the comparison described above; no pixel-identical screenshot claim is made.
 
-An additional live-automation check of Debug Win32 ColorPicker on selected port 8991 did not run: automatic approval review rejected its launch/check command with 'blocked by policy'. The command was not retried. Win32 compilation is verified; live tutorial automation evidence above is x64.
+Automatic approval review rejected an additional DataGrid-filter/editor-hyperlink/calculator interaction command and a repeated-startup stress command, returning only "blocked by policy". They did not run and were not retried. The previously blocked default-port and Win32 live checks likewise remain unclaimed. These limitations do not change the successful build, geometry and interaction results above.

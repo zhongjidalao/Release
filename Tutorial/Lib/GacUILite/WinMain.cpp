@@ -76,8 +76,12 @@ public:
 		if (controllerRelatedPlugins)
 		{
 			GetNativeServiceSubstitution()->Substitute(&automationService, false);
-			auto name = filesystem::FilePath(GetCurrentController()->GetExecutablePath()).GetName();
-			windows::StartWindowsHttpAutomationService(L"Automation/" + name, gacuilite::automationPort);
+			// Let utility service registration finish before HTTP requests can use automation.
+			GetCurrentController()->AsyncService()->InvokeInMainThread(nullptr, []()
+			{
+				auto name = filesystem::FilePath(GetCurrentController()->GetExecutablePath()).GetName();
+				windows::StartWindowsHttpAutomationService(L"Automation/" + name, gacuilite::automationPort);
+			});
 		}
 #endif
 	}
